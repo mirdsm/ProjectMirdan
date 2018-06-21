@@ -10,7 +10,7 @@ for _ in range(student_counts):
 def getKey(item):
     return item[1]
 list = sorted(list, key=getKey)
-print list
+#print list
 
 rangking_1 =list[1]
 g = 2
@@ -27,7 +27,7 @@ for i in range(student_counts):
 
 
 final_name = sorted(temp_2)
-print final_name
+#print final_name
 for _ in final_name:
     print _
 
